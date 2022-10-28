@@ -82,8 +82,7 @@
       "tag": "penjelasan_dessert_box_toblerone",
       "patterns": ["Bagaimana rasa Dessert Box Toblerone?"],
       "responses": [
-        "Wow ada lagi nih yg toblerone, dijamin beneran enak gaaeess, bolu sponge coklat nya tuh lembut banget, moist gitu Dan sama sekali gak kering, justru lumerr dimulut. Perpaduan antar bolu coklat Dan krim nya yang lembut pas banget dimulut. Setiap suapan Itu Ada krenyes crunchy bites dari si coklat toblerone."
-      ]
+        "Wow ada lagi nih yg toblerone, dijamin beneran enak gaaeess, bolu sponge coklat nya tuh lembut banget, moist gitu Dan sama sekali gak kering, justru lumerr dimulut. Perpaduan antar bolu coklat Dan krim nya yang lembut pas banget dimulut. Setiap suapan Itu Ada krenyes crunchy bites dari si coklat toblerone."]
     },
     {
       "tag": "pembayaran",
@@ -94,7 +93,6 @@
       "tag": "tempat_memesan",
       "patterns": ["Dimanakan kami bisa memesan dessertbox tersebut?"],
       "responses": ["Anda hanya bisa memesan langsung ditoko atau aplikasi pemesan makanan seperti GoFood, GrabFood, dan ShopeeFood"]
-
     }
   ]
 }
