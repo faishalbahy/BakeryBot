@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan"],
+      "responses": ["Hai! CoffeBot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya CoffeBot, salam kenal ya! Mau tau tentang produk kopi, kan?", "Helo! Ini CoffeBot. Lagi kepo tentang Kopi ya?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa", "Bai", "See you"],
+      "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!", "See u! Senang bisa membantu"]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
+      "responses": ["Dengan senang hati:)", "Kembali Kasih", "Sama-sama, have a nice day!"]
+    },
+    {
+      "tag": "penjelasan_produk_jualan",
+      "patterns": ["Produk apa yang dijual?"],
+      "responses": ["Produk yang kami jual adalah produk kopi dengan berbagai varian rasa"]
+    },
+    {
+      "tag": "produk_bestseller",
+      "patterns": ["Produk apa yang best seller sekarang?"],
+      "responses": ["Produk best seller sampai saat ini adalah kopi Espresso"]
+    },
+    {
+      "tag": "harga_kopi",
+      "patterns": ["Berapa harga dari produk di toko ini?", "Berapa harga produk?"],
+      "responses": [
+        "List harga produk di toko = Kopi Espresso : Rp.47.000, Kopi Robusta Bali : Rp. 120.000, Kopi Arabika : 119.000, Kopi Robusta Toraja : Rp. 33.000, Kapal Api Special Merah : Rp.29.000, Kopi House Blend : Rp.51.000, Kopi Tubruk Robusta : Rp.22.500, Kopi Luwak Lampung : Rp. 250.000"
+      ]
+    },
+    {
+      "tag": "jenis_kopi",
+      "patterns": ["Apa saja jenis kopi yang dijual?"],
+      "responses": ["Kopi Espresso, Kopi Robusta Bali, Kopi Arabika, Kopi Robusta Toraja, Kapal Api Special Merah, Kopi House Blend ,Kopi Tubruk Robusta, Kopi Luwak Lampung"]
+    },
+    {
+      "tag": "lama_pengiriman",
+      "patterns": ["Berapa lama pengiriman?"],
+      "responses": ["Pengiriman sekitar 4-5 hari tergantung tempat tujuan pengirimannya"]
+    },
+    {
+      "tag": "penjelasan_espresso",
+      "patterns": ["Apa itu kopi espresso?"],
+      "responses": [
+        "Espresso merupakan kopi yang dihasilkan dari proses penyeduhan kopi dengan tekanan dan suhu tinggi. Kopi espresso dibuat dengan menggiling kopi hingga halus, lalu dipadatkan atau biasa disebut “tamping”, kemudian kopi diseduh dengan tekanan tinggi dengan suhu yang tinggi, sehingga menghasilkan ekstrak kopi yang kental. Rasanya yang tebal dan teksturnya yang kental itu menjadikannya base atau dasar untuk pembuatan berbagai menu kopi, seperti cappuccino, americano dan juga caffé latte."
+      ]
+    },
+    {
+      "tag": "penjelasan_robusta_bali",
+      "patterns": ["Apa itu kopi robusta bali?"],
+      "responses": [
+        "Kopi Bali Pupuan kini hadir dan bisa dipesan di Omiyago, merupakan kopi jenis robusta yang berasal dari daerah Pupuan, Tabanan Bali. Memiliki aroma wangi cokelat yang menggoda karena ditanam berdekatan dengan tanaman cokelat. Dibuat dengan 100% biji kopi Pupuan organik yang juga diproses secara natural sehingga menjadikan sajian kopi yang khas dan akan disukai pecinta para kopi. Karakter kopi robusta dengan kadar kafein yang tinggi dan dengan kadar asam yang rendah cukup aman dikonsumi bagi pemula. Kopi robuta Bli Pupuan ditanam di atas ketinggian 400-700 mdpl di daerah dengan cuaca sejuk sehingga hasil panen kopinya pun tak diragukan lagi kenikmatannya. Temukan kenikmatan rasa Kopi Bali Pupuan Robusta Roasted Bean dari Meranggi Coffee di Omiyago. Jaminan kualitas rasa dan kesegaran terjaga hingga produk sampai ke tangan Anda. Omiyago, jaminan mutu setiap produk kopi khas Nusantara."
+      ]
+    },
+    {
+      "tag": "penjelasan_arabika",
+      "patterns": ["Apa itu kopi arabika?"],
+      "responses": [
+        "Kopi arabika (Coffea arabica), juga dikenal sebagai kopi Arab, kopi semak Arab, atau kopi gunung, adalah spesies dari genus Coffea. Spesies ini diyakini sebagai spesies kopi pertama yang dibudidayakan, dan merupakan kultivar dominan, mewakili sekitar 60% dari produksi kopi global."
+      ]
+    },
+    {
+      "tag": "penjelasan_robusta_toraja",
+      "patterns": ["Apa itu kopi robusta toraja?"],
+      "responses": [
+        "kopi toraja sapan Kopi Toraja, merupakan salah satu varian kopi yang paling populer dan memiliki kualitas terbaik yang dimiliki oleh Indonesia. Di samping kopi Gayo dan Luwak, kopi yang memiliki nama latin Celeber Kalosi ini juga dikenal oleh para pecinta kopi dari seluruh dunia. Selain memiliki rasa yang khas kopi ini juga memiliki karakteristik yang unik. "
+      ]
+    },
+    {
+      "tag": "penjelasan_kapal_api",
+      "patterns": ["Apa itu kapal api special merah?"],
+      "responses": ["Kopi Kapal Api terbuat dari biji kopi pilihan dan diproses dengan mesin yang paling modern yang menghasilkan kopi berkualitas tinggi dengan Aroma terbaik dan Rasa yang enak."]
+    },
+    {
+      "tag": "penjelasan_kopi_houseblend",
+      "patterns": ["Apa itu kopi house blend"],
+      "responses": ["House blend adalah kopi yang diracik dari berbagai jenis kopi, baik dari sisi daerah tertentu atau varietas. Namun, racikan house blend-nya tidak sama"]
+    },
+    {
+      "tag": "penjelasan_tubruk_robusta",
+      "patterns": ["Apa itu kopi tubruk robusta?"],
+      "responses": [
+        " Robusta Kopi Tubruk adalah bubuk kopi yg mengandung 100% biji kopi Robusta asli dgn campuran bahan kopi lainnya sehingga menciptakan aroma dan rasa yang khas. Kopi dengan aroma yang kuat dan rasa yang khas dan nikmat, kopi yang satu ini memang diciptakan untuk anda. Kopi Robusta ini memiliki cita rasa unik dan kepahitan yang pas."
+      ]
+    },
+    {
+      "tag": "penjelasan_luwak_lampung",
+      "patterns": ["Apa itu kopi luwak lampung?"],
+      "responses": [
+        "Kopi Luwak AKL merupakan kopi unik yang proses biji kopinya melewati proses fermentasi dari perut Luwak atau dengan nama lain Musang. Musang Luwak adalah hewan liar yang senang mencari buah-buahan bermutu cukup baik di hutan ataupun kebun milik petani, termasuk diantaranya adalah buah kopi. Musang luwak ini dengan indera penciumannya yang sangat peka begitu pandai untuk memilih buah kopi mana yang paling bagus dan telah masak, sehingga menghasilkan buah kopi pilihan berkualitas tinggi."
+      ]
+    },
+    {
+      "tag": "orang_konsumsi_kopi",
+      "patterns": ["Orang yang diperbolehkan minum kopi?"],
+      "responses": ["Semua orang diperbolehkan kecuali bayi, ibu menyusui, ibu hamil, dan orang yang memiliki penyakit yang memiliki pantangan minum kopi"]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": ["Dimana pembayaran bisa dilakukan?", "Pembayaran melalui apa?"],
+      "responses": ["Pembayaran bisa melalui COD, Cash, E-Wallet, dan Bank"]
+    },
+    {
+      "tag": "manfaat_kopi",
+      "patterns": ["Apa saja manfaat dari kopi?"],
+      "responses": ["Manfaat kopi untuk kesehatan = 1. Menjaga kesehatan jantung, 2. Mempertahankan berat badan ideal, 3. Mengurangi risiko diabetes tipe 2, 4. Menjaga kesehatan otak."]
+    },
+    {
+      "tag": "alasan_kopi_bermanfaat_bagi_tubuh",
+      "patterns": ["Kenapa kopi bisa bermanfaat bagi tubuh?"],
+      "responses": [
+        "Kopi mengandung sejumlah nutrisi bermanfaat, di antaranya riboflavin (vitamin B-2), niasin (vitamin B-3), magnesium, kalium, dan berbagai senyawa fenolik, atau antioksidan. Beberapa ahli juga menyarankan bahwa kandungan dalam kopi dapat bermanfaat bagi tubuh manusia dengan berbagai cara."
+      ]
+    }
+  ]
+}
