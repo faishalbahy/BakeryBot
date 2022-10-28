@@ -3,7 +3,7 @@
     {
       "tag": "greeting",
       "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan"],
-      "responses": ["Hai! CoffeBot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya CoffeBot, salam kenal ya! Mau tau tentang produk kopi, kan?", "Helo! Ini CoffeBot. Lagi kepo tentang Kopi ya?"]
+      "responses": ["Hai! BakeryBot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya CoffeBot, salam kenal ya! Mau tau tentang produk Dessert Box, kan?", "Helo! Ini BakeryBot. Kamu Mau Tau Tentang DessertBox ya?"]
     },
     {
       "tag": "goodbye",
@@ -18,7 +18,7 @@
     {
       "tag": "penjelasan_produk_jualan",
       "patterns": ["Produk apa yang dijual?"],
-      "responses": ["Produk yang kami jual adalah produk kopi dengan berbagai varian rasa"]
+      "responses": ["Kami Menjual Berbagai Produk Dessert Box Dengan Berbagai Varian Rasa!"]
     },
     {
       "tag": "produk_bestseller",
