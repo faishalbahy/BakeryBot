@@ -13,7 +13,7 @@
     {
       "tag": "terimakasih",
       "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
-      "responses": ["Dengan senang hati:)", "Kembali Kasih", "Sama-sama, have a nice day!"]
+      "responses": ["Dengan senang hati:)", "Kembali Kasih", "Sama-sama, have a nice day!", "My Pleasure!"]
     },
     {
       "tag": "penjelasan_produk_jualan",
@@ -22,82 +22,68 @@
     },
     {
       "tag": "produk_bestseller",
-      "patterns": ["Produk apa yang best seller sekarang?"],
-      "responses": ["Produk best seller sampai saat ini adalah kopi Espresso"]
+      "patterns": ["Produk Dessert Box varian apa yang best seller sekarang?"],
+      "responses": ["Produk best seller sampai saat ini adalah Dessert Box Regal"]
     },
     {
-      "tag": "harga_kopi",
-      "patterns": ["Berapa harga dari produk di toko ini?", "Berapa harga produk?"],
-      "responses": [
-        "List harga produk di toko = Kopi Espresso : Rp.47.000, Kopi Robusta Bali : Rp. 120.000, Kopi Arabika : 119.000, Kopi Robusta Toraja : Rp. 33.000, Kapal Api Special Merah : Rp.29.000, Kopi House Blend : Rp.51.000, Kopi Tubruk Robusta : Rp.22.500, Kopi Luwak Lampung : Rp. 250.000"
+      "tag": "harga_dessertbox",
+      "patterns": ["Berapa harga dari produk Dessert Box Disini ?", "Berapa harga produk?"],
+      "responses": ["List harga Dessert Box sebagai berikut = Dessert Box Regal : Rp.65.000, Dessert Box Tiramisu : Rp.65.000, Dessert Box Milkybath Cheese : Rp.60.000, Dessert Box Oreo : Rp.55.000, Dessert Box Redvelvet : Rp.60.000, Dessert Box Toblerone : Rp.70.000"
       ]
     },
     {
-      "tag": "jenis_kopi",
-      "patterns": ["Apa saja jenis kopi yang dijual?"],
-      "responses": ["Kopi Espresso, Kopi Robusta Bali, Kopi Arabika, Kopi Robusta Toraja, Kapal Api Special Merah, Kopi House Blend ,Kopi Tubruk Robusta, Kopi Luwak Lampung"]
+      "tag": "varian_dessertbox",
+      "patterns": ["Apa saja varian rasa Dessert Box yang dijual?"],
+      "responses": ["Varians Dessert Box yang tersedia yaitu ada Dessert Box Regal, Dessert Box Tiramisu, Dessert Box Milkybath Cheese, Dessert Box Oreo, Dessert Box Redvelvet, dan Dessert Box Toblerone"]
     },
     {
       "tag": "lama_pengiriman",
       "patterns": ["Berapa lama pengiriman?"],
-      "responses": ["Pengiriman sekitar 4-5 hari tergantung tempat tujuan pengirimannya"]
+      "responses": ["Pengiriman tergantung memeasan produk dari mana, menyesuaikan situasi dan kondisi. Paling cepat pengiriman yaitu 1 hari"]
     },
     {
-      "tag": "penjelasan_espresso",
-      "patterns": ["Apa itu kopi espresso?"],
-      "responses": [
-        "Espresso merupakan kopi yang dihasilkan dari proses penyeduhan kopi dengan tekanan dan suhu tinggi. Kopi espresso dibuat dengan menggiling kopi hingga halus, lalu dipadatkan atau biasa disebut “tamping”, kemudian kopi diseduh dengan tekanan tinggi dengan suhu yang tinggi, sehingga menghasilkan ekstrak kopi yang kental. Rasanya yang tebal dan teksturnya yang kental itu menjadikannya base atau dasar untuk pembuatan berbagai menu kopi, seperti cappuccino, americano dan juga caffé latte."
+      "tag": "penjelasan_dessertbox",
+      "patterns":["Apa itu Dessert Box?"],
+      "responses": ["Dessert box adalah makanan penutup atau bisa disebut dessert yang memadukan antara krim, kue, biscuit, dan pudding jadi satu dan dikemas dalam box bening."
       ]
     },
     {
-      "tag": "penjelasan_robusta_bali",
-      "patterns": ["Apa itu kopi robusta bali?"],
+      "tag": "penjelasan_dessertboxregal",
+      "patterns": ["Bagaimana rasa Dessert Box Regal?"],
       "responses": [
-        "Kopi Bali Pupuan kini hadir dan bisa dipesan di Omiyago, merupakan kopi jenis robusta yang berasal dari daerah Pupuan, Tabanan Bali. Memiliki aroma wangi cokelat yang menggoda karena ditanam berdekatan dengan tanaman cokelat. Dibuat dengan 100% biji kopi Pupuan organik yang juga diproses secara natural sehingga menjadikan sajian kopi yang khas dan akan disukai pecinta para kopi. Karakter kopi robusta dengan kadar kafein yang tinggi dan dengan kadar asam yang rendah cukup aman dikonsumi bagi pemula. Kopi robuta Bli Pupuan ditanam di atas ketinggian 400-700 mdpl di daerah dengan cuaca sejuk sehingga hasil panen kopinya pun tak diragukan lagi kenikmatannya. Temukan kenikmatan rasa Kopi Bali Pupuan Robusta Roasted Bean dari Meranggi Coffee di Omiyago. Jaminan kualitas rasa dan kesegaran terjaga hingga produk sampai ke tangan Anda. Omiyago, jaminan mutu setiap produk kopi khas Nusantara."
+        "Sesuai dengan namanya, dessert box yang satu ini dikreasikan dengan biskuit marie regal. Bawahnya ada lapisan vanilla mousse dan regal curd, lali ditutup dengan lelehan coklat gold caramel. Tak ketinggalan ada 1 buah biskuit marie sebagai topping. Kalau soal rasa tidak perlu diragukan lagi teksturnya lembut, dan rasa manisnya tidak terlalu tajam. Varian regal dessert box pantas mendapat bintang lima di setiap ulasannya."
       ]
     },
     {
-      "tag": "penjelasan_arabika",
-      "patterns": ["Apa itu kopi arabika?"],
+      "tag": "penjelasan_dessertboxtiramisu",
+      "patterns": ["Bagaimana rasa Dessert Box Tiramisu?"],
       "responses": [
-        "Kopi arabika (Coffea arabica), juga dikenal sebagai kopi Arab, kopi semak Arab, atau kopi gunung, adalah spesies dari genus Coffea. Spesies ini diyakini sebagai spesies kopi pertama yang dibudidayakan, dan merupakan kultivar dominan, mewakili sekitar 60% dari produksi kopi global."
+        "Sensasi manis-pahit yang disajikan, membuat varian tiramisu jadi menu favorit selanjutnya. Lapisan pertama diisi dengan sponge cake rasa kopi premium, sementara di lapisan kedua terdapat cream cheese yang lembut dan lapisan ketiga diisi dengan premium Belgian chocolate."
       ]
     },
     {
-      "tag": "penjelasan_robusta_toraja",
-      "patterns": ["Apa itu kopi robusta toraja?"],
+      "tag": "penjelasan_dessertboxmilkybathcheese",
+      "patterns": ["Bagaimana rasa Dessert Box Milkybath Cheese?"],
       "responses": [
-        "kopi toraja sapan Kopi Toraja, merupakan salah satu varian kopi yang paling populer dan memiliki kualitas terbaik yang dimiliki oleh Indonesia. Di samping kopi Gayo dan Luwak, kopi yang memiliki nama latin Celeber Kalosi ini juga dikenal oleh para pecinta kopi dari seluruh dunia. Selain memiliki rasa yang khas kopi ini juga memiliki karakteristik yang unik. "
+        "Ini dia sii cake mandii susu… Dibuat dari 3 jenis susu yg berbeba bikin cake ini punya cita rasa yg berbeda ditambah dengan yg keju melimpahh jadii pengenn ngunyahh mulu."
       ]
     },
     {
-      "tag": "penjelasan_kapal_api",
-      "patterns": ["Apa itu kapal api special merah?"],
-      "responses": ["Kopi Kapal Api terbuat dari biji kopi pilihan dan diproses dengan mesin yang paling modern yang menghasilkan kopi berkualitas tinggi dengan Aroma terbaik dan Rasa yang enak."]
+      "tag": "penjelasan_dessertboxoreo",
+      "patterns": ["Bagaimana rasa Dessert Box Oreo?"],
+      "responses": ["Kue ini memiliki cita rasa manis, lembut, legit dan sedikit renyah karena terdapat remahan biskuit Oreo sebagai topping-nya."]
     },
     {
-      "tag": "penjelasan_kopi_houseblend",
-      "patterns": ["Apa itu kopi house blend"],
-      "responses": ["House blend adalah kopi yang diracik dari berbagai jenis kopi, baik dari sisi daerah tertentu atau varietas. Namun, racikan house blend-nya tidak sama"]
+      "tag": "penjelasan_dessertboxredvelvet",
+      "patterns": ["Bagaimana rasa Dessert Box Redvelvet?"],
+      "responses": ["Dessert box rasa red velvet juga ga kalah enak dari varian lainnya. Tampil dengan warna merah menyala, dilapisi dengan krim keju yang ringan dan ditaburi red velvet crumble yang melimpah, menghadirkan rasa manis yang sulit dilupakan."]
     },
     {
-      "tag": "penjelasan_tubruk_robusta",
-      "patterns": ["Apa itu kopi tubruk robusta?"],
+      "tag": "penjelasan_dessertboxtoblerone",
+      "patterns": ["Bagaimana rasa Dessert Box Toblerone?"],
       "responses": [
-        " Robusta Kopi Tubruk adalah bubuk kopi yg mengandung 100% biji kopi Robusta asli dgn campuran bahan kopi lainnya sehingga menciptakan aroma dan rasa yang khas. Kopi dengan aroma yang kuat dan rasa yang khas dan nikmat, kopi yang satu ini memang diciptakan untuk anda. Kopi Robusta ini memiliki cita rasa unik dan kepahitan yang pas."
+        "Wow ada lagi nih yg toblerone, dijamin beneran enak gaaeess, bolu sponge coklat nya tuh lembut banget, moist gitu Dan sama sekali gak kering, justru lumerr dimulut. Perpaduan antar bolu coklat Dan krim nya yang lembut pas banget dimulut. Setiap suapan Itu Ada krenyes crunchy bites dari si coklat toblerone."
       ]
-    },
-    {
-      "tag": "penjelasan_luwak_lampung",
-      "patterns": ["Apa itu kopi luwak lampung?"],
-      "responses": [
-        "Kopi Luwak AKL merupakan kopi unik yang proses biji kopinya melewati proses fermentasi dari perut Luwak atau dengan nama lain Musang. Musang Luwak adalah hewan liar yang senang mencari buah-buahan bermutu cukup baik di hutan ataupun kebun milik petani, termasuk diantaranya adalah buah kopi. Musang luwak ini dengan indera penciumannya yang sangat peka begitu pandai untuk memilih buah kopi mana yang paling bagus dan telah masak, sehingga menghasilkan buah kopi pilihan berkualitas tinggi."
-      ]
-    },
-    {
-      "tag": "orang_konsumsi_kopi",
-      "patterns": ["Orang yang diperbolehkan minum kopi?"],
-      "responses": ["Semua orang diperbolehkan kecuali bayi, ibu menyusui, ibu hamil, dan orang yang memiliki penyakit yang memiliki pantangan minum kopi"]
     },
     {
       "tag": "pembayaran",
@@ -105,9 +91,9 @@
       "responses": ["Pembayaran bisa melalui COD, Cash, E-Wallet, dan Bank"]
     },
     {
-      "tag": "manfaat_kopi",
-      "patterns": ["Apa saja manfaat dari kopi?"],
-      "responses": ["Manfaat kopi untuk kesehatan = 1. Menjaga kesehatan jantung, 2. Mempertahankan berat badan ideal, 3. Mengurangi risiko diabetes tipe 2, 4. Menjaga kesehatan otak."]
+      "tag": "tempat_memesan",
+      "patterns": ["Dimanakan kami bisa memesan dessertbox tersebut?"],
+      "responses": ["Anda hanya bisa memesan langsung ditoko atau aplikasi pemesan makanan seperti GoFood, GrabFood, dan ShopeeFood"]
     },
     {
       "tag": "alasan_kopi_bermanfaat_bagi_tubuh",
