@@ -32,7 +32,7 @@
       ]
     },
     {
-      "tag": "varian_dessertbox",
+      "tag": "varian_dessert_box",
       "patterns": ["Apa saja varian rasa Dessert Box yang dijual?"],
       "responses": ["Varians Dessert Box yang tersedia yaitu ada Dessert Box Regal, Dessert Box Tiramisu, Dessert Box Milkybath Cheese, Dessert Box Oreo, Dessert Box Redvelvet, dan Dessert Box Toblerone"]
     },
@@ -42,44 +42,44 @@
       "responses": ["Pengiriman tergantung memeasan produk dari mana, menyesuaikan situasi dan kondisi. Paling cepat pengiriman yaitu 1 hari"]
     },
     {
-      "tag": "penjelasan_dessertbox",
+      "tag": "penjelasan_dessert_box",
       "patterns":["Apa itu Dessert Box?"],
       "responses": ["Dessert box adalah makanan penutup atau bisa disebut dessert yang memadukan antara krim, kue, biscuit, dan pudding jadi satu dan dikemas dalam box bening."
       ]
     },
     {
-      "tag": "penjelasan_dessertboxregal",
+      "tag": "penjelasan_dessert_box_regal",
       "patterns": ["Bagaimana rasa Dessert Box Regal?"],
       "responses": [
         "Sesuai dengan namanya, dessert box yang satu ini dikreasikan dengan biskuit marie regal. Bawahnya ada lapisan vanilla mousse dan regal curd, lali ditutup dengan lelehan coklat gold caramel. Tak ketinggalan ada 1 buah biskuit marie sebagai topping. Kalau soal rasa tidak perlu diragukan lagi teksturnya lembut, dan rasa manisnya tidak terlalu tajam. Varian regal dessert box pantas mendapat bintang lima di setiap ulasannya."
       ]
     },
     {
-      "tag": "penjelasan_dessertboxtiramisu",
+      "tag": "penjelasan_dessert_box_tiramisu",
       "patterns": ["Bagaimana rasa Dessert Box Tiramisu?"],
       "responses": [
         "Sensasi manis-pahit yang disajikan, membuat varian tiramisu jadi menu favorit selanjutnya. Lapisan pertama diisi dengan sponge cake rasa kopi premium, sementara di lapisan kedua terdapat cream cheese yang lembut dan lapisan ketiga diisi dengan premium Belgian chocolate."
       ]
     },
     {
-      "tag": "penjelasan_dessertboxmilkybathcheese",
+      "tag": "penjelasan_dessert_box_milkybath_cheese",
       "patterns": ["Bagaimana rasa Dessert Box Milkybath Cheese?"],
       "responses": [
         "Ini dia sii cake mandii susu… Dibuat dari 3 jenis susu yg berbeba bikin cake ini punya cita rasa yg berbeda ditambah dengan yg keju melimpahh jadii pengenn ngunyahh mulu."
       ]
     },
     {
-      "tag": "penjelasan_dessertboxoreo",
+      "tag": "penjelasan_dessert_box_oreo",
       "patterns": ["Bagaimana rasa Dessert Box Oreo?"],
       "responses": ["Kue ini memiliki cita rasa manis, lembut, legit dan sedikit renyah karena terdapat remahan biskuit Oreo sebagai topping-nya."]
     },
     {
-      "tag": "penjelasan_dessertboxredvelvet",
+      "tag": "penjelasan_dessert_box_redvelvet",
       "patterns": ["Bagaimana rasa Dessert Box Redvelvet?"],
       "responses": ["Dessert box rasa red velvet juga ga kalah enak dari varian lainnya. Tampil dengan warna merah menyala, dilapisi dengan krim keju yang ringan dan ditaburi red velvet crumble yang melimpah, menghadirkan rasa manis yang sulit dilupakan."]
     },
     {
-      "tag": "penjelasan_dessertboxtoblerone",
+      "tag": "penjelasan_dessert_box_toblerone",
       "patterns": ["Bagaimana rasa Dessert Box Toblerone?"],
       "responses": [
         "Wow ada lagi nih yg toblerone, dijamin beneran enak gaaeess, bolu sponge coklat nya tuh lembut banget, moist gitu Dan sama sekali gak kering, justru lumerr dimulut. Perpaduan antar bolu coklat Dan krim nya yang lembut pas banget dimulut. Setiap suapan Itu Ada krenyes crunchy bites dari si coklat toblerone."
@@ -94,13 +94,7 @@
       "tag": "tempat_memesan",
       "patterns": ["Dimanakan kami bisa memesan dessertbox tersebut?"],
       "responses": ["Anda hanya bisa memesan langsung ditoko atau aplikasi pemesan makanan seperti GoFood, GrabFood, dan ShopeeFood"]
-    },
-    {
-      "tag": "alasan_kopi_bermanfaat_bagi_tubuh",
-      "patterns": ["Kenapa kopi bisa bermanfaat bagi tubuh?"],
-      "responses": [
-        "Kopi mengandung sejumlah nutrisi bermanfaat, di antaranya riboflavin (vitamin B-2), niasin (vitamin B-3), magnesium, kalium, dan berbagai senyawa fenolik, atau antioksidan. Beberapa ahli juga menyarankan bahwa kandungan dalam kopi dapat bermanfaat bagi tubuh manusia dengan berbagai cara."
-      ]
+
     }
   ]
 }
